@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container {
+    background: rgb(50,113,167);
+    background: linear-gradient(0deg, rgba(50,113,167,1) 0%, rgba(35,81,118,1) 14%);
+    width: 970px;
+    margin: 0 auto;
+    
+}
+    #headerTop {
+        width: 970px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+
+    img {
+        width: 330px;
+        height: 100px;
+        padding-left: 20px;
+    }
+
+        #headerTopRight, p, form {
+            width: 400px;
+            color: white;   
+        }
+
+        #headerTopRight p {
+            padding-left: 190px;
+            margin-bottom: 5px;
+            width: 190px;
+            font-size: 10pt;
+        }
+            p span {
+                color : #D1B200;
+            }
+
+        #headerTopRight form {
+            background-color: #444444;
+            padding: 15px;
+            width: 200px;
+            height: 30px;
+            margin-left: 130px;
+            border-radius: 10px;              
+
+        }
+
+        input{ 
+            height: 25px;
+            width: 153px;
+            text-align: center;
+            
+            
+        }
+
+        button {
+            color: #EBEFF3;
+            background-color: #245076;
+            padding: 6px;
+            border-radius: 10px;
+        }
+
+    .navBar {
+        display: flex;
+        padding-top: 0;
+        justify-content: space-around;
+        margin-top: 5px;
+        margin-left: 60px;
+        background-color:#467EAD;    
+        width: 870px;
+        height: 45px;
+        border-radius: 5px;    
+    }
+
+    .navBar a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 22px;
+        margin-top: 10px;
+
+
+    }
+
+    .info {
+        display: flex;
+        justify-content: flex-start;
+        color: white;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 60px;
+
+        
+    }
+
+        .info ul {
+            text-align: center;
+            list-style-position: inside;
+            list-style-type: none;
+            
+        }
+
+        .info ul li {
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+        .info ul li::before {
+            content: "\2022"; 
+            color: #DDC13E;
+            font-weight: bold; 
+            display: inline-block;
+            width: 1em; 
+            margin-left: -1em;
+        }
+        
+
+        .navigation {  
+            width: 200px;            
+        }
+
+        .contents {
+            width: 790px;
+            text-align: center;            
+        }
+        
+        .contents p {
+            width: 700px;
+            font-size: 15px;
+        }
+
+        .contents h3 {
+            color: #DDC13E;
+            font-weight: lighter;
+            font-style: italic;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 10px auto;
+        }
+
+            #zen {
+                margin-top: 20px;
+                font-size: 16px;
+            }
+
+        .middle {
+            display: flex;
+            justify-content: center;
+            color: black;
+            margin-top: 30px;
+            background-color: white;
+            text-align: center;  
+        }
+            .middle h3 {
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+
+            .middle p {
+                color: black;
+                width: 330px;
+                margin-left: 20px;
+            }
+
+            .middle span {
+                color: #82B1DA;
+            }
+
+            .middle ul {
+                display: inline-block;
+                padding-left: 0;
+                color: #82B1DA;
+
+            }
+
+            .started {
+                margin-left: 50px;
+                margin-top: 10px;                
+                margin-right: 20px;
+                border-top: 4px solid #73A8D5;
+                width: 400px;
+
+            }
+
+            .applications {
+                margin-top: 10px;                
+                margin-bottom: 20px;
+                border-top: 4px solid #73A8D5; 
+                width: 400px;      
+            }
+
+    footer ul{
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        color: #6DA2CE;
+        margin-top: 50px;
+        padding-left: 150px;
+        padding-right: 150px;
+        font-size: 17px; 
+    }
+
+    footer p {
+        padding-left: 400px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        font-size: 12px;
+        color: #6DA2CE;
+        
+    }
